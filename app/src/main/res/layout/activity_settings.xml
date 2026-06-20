@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0A0A0F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fmekran Player Ayarları"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunucu URL"
+        android:textColor="#9CA3AF"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/serverUrlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="http://34.78.135.59"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#374151"
+        android:background="#111118"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textUri" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekran ID (UUID)"
+        android:textColor="#9CA3AF"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/screenIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yönetim panelinden alın"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#374151"
+        android:background="#111118"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC Adresi"
+        android:textColor="#9CA3AF"
+        android:textSize="12sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/macInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Otomatik algılanır"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#374151"
+        android:background="#111118"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet ve Yeniden Başlat"
+        android:backgroundTint="#4F46E5"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
